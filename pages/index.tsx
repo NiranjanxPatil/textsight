@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         />
       </Head>
 
-      <div className="bg-gradient-to-b from-[#2e026d] to-[#15162c]">
+      <div className="bg-gray-900">
         <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
           <Navbar />
           <HeroSection />
@@ -29,3 +29,5 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
+
