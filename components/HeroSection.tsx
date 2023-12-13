@@ -14,13 +14,12 @@ export default function HeroSection() {
       setButtonText("Copy"); // Set the button text back to "Copy" after 2 seconds
     }, 2000);
   };
-
+<script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="cea78beb-0056-47f4-8382-00f1ed721ce1" async></script>
   return (
     
     <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-16 mt-18  ">
-      <head>
+      
       <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="cea78beb-0056-47f4-8382-00f1ed721ce1" async></script>
-      </head>
       <h1 className="mt-1 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-4xl font-extrabold uppercase tracking-tighter text-transparent sm:text-4xl lg:text-6xl">
         Easily generate text for your images
         <span className="relative whitespace-nowrap text-[#757fdf]">
