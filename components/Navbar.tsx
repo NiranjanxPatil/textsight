@@ -6,9 +6,10 @@ export default function Navbar() {
   return (
     <header className="flex justify-between items-center w-full mt-2 border-b-2 border-stone-400 pb-7 sm:px-4 px-2">
       <Link href="/" className="flex space-x-2 items-center">
-        <h1 className="sm:text-3xl text-3xl font-bold ml-2 tracking-tight border border-spacing rounded-3xl p-3 text-white hover:text-white/50">
-          TextSight
-        </h1>
+      <h1 className="sm:text-3xl text-3xl bg-black font-bold ml-2 tracking-widest border rounded-3xl p-3 text-white hover:text-white/50">
+  TextSight
+</h1>
+
       </Link>
       <a
         className="relative overflow-hidden rounded-full bg-black px-20 sm:px-24 py-6 ring-red-500/50 ring-offset-black will-change-transform focus:outline-none focus:ring-1 focus:ring-offset-2"

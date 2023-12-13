@@ -16,7 +16,11 @@ export default function HeroSection() {
   };
 
   return (
+    
     <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-16 mt-18  ">
+      <head>
+      <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="cea78beb-0056-47f4-8382-00f1ed721ce1" async></script>
+      </head>
       <h1 className="mt-1 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-4xl font-extrabold uppercase tracking-tighter text-transparent sm:text-4xl lg:text-6xl">
         Easily generate text for your images
         <span className="relative whitespace-nowrap text-[#757fdf]">
@@ -46,16 +50,16 @@ export default function HeroSection() {
       </div>
 
       <div className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6 text-white">
-        <div className="flex flex-col space-y-10 mt-4 mb-16">
+        <div className="flex flex-col space-y-10 mt-2 mb-16">
           <div className="flex sm:space-x-10 sm:flex-row flex-col">
             <div className="w-full md:w-1/2">
               <h2 className="mb-1 font-medium text-lg">Original Photo</h2>
               <Image
                 alt="Dog and blue building"
-                src="/example.jpg"
-                className="w-96 h-96 rounded-2xl"
-                width={400}
-                height={400}
+                src="/supra.jpg"
+                className="w-100  h-75 rounded-2xl"
+                width={600}
+                height={600}  
               />
             </div>
 
@@ -64,13 +68,13 @@ export default function HeroSection() {
               <textarea
                 className="w-full h-32 p-2 text-gray-700 border border-gray-300 rounded-md resize-none focus:outline-none focus:ring"
                 placeholder="Enter text here..."
-                value="a brown dog standing on top of a blue building"
+                value="IS THAT A SUPRA?! RAATATATAA"
               />
               <button
                 className="px-4 py-2 text-white bg-[#5a5cd1] rounded-md hover:bg-[#3f4194] focus:outline-none focus:ring"
                 onClick={() =>
                   copyToClipboard(
-                    "a brown dog standing on top of a blue building"
+                    "IS THAT A SUPRA?! RAATATATAA"
                   )
                 }
               >
